@@ -29,7 +29,7 @@ The project is built using **HTML, CSS, and JavaScript**, focusing on clean desi
 
  ## 🌐 Live Demo
  
-Check out the live version here:
+Check out the live version here: https://ebrahimhiggi.github.io/CarNest/
 
 
  ## 👨‍💻 Author

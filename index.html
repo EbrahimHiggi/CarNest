@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CarNest</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div id="menu-but" class="fas fa-bars"></div>
+      <a href="#" class="logo"><span>Car</span>Nest </a>
+      <nav class="navbar">
+        <a href="#home" class="active">home</a>
+        <a href="#vehicles">vehicles</a>
+        <a href="#featured">featured</a>
+        <a href="#services">services</a>
+        <a href="#reviews">reviews</a>
+        <a href="#contact">contact</a>
+      </nav>
+      <div id="login-but">
+        <button class="but">login</button>
+        <i class="far fa-user"></i>
+      </div>
+    </header>
+
+    <div class="login-container">
+      <span class="fas fa-times" id="close-login"></span>
+      <form action="">
+        <h3>user login</h3>
+        <input type="email" placeholder="email" class="box" />
+        <input type="password" placeholder="password" class="box" />
+        <p>forget your password <a href="#">click here</a></p>
+        <input type="submit" value="login now" class="but" />
+        <p>or login with</p>
+        <div class="buttons">
+          <a href="#" class="but">google</a>
+          <a href="#" class="but">facebook</a>
+        </div>
+        <p>Don’t Have An Account <a href="#">Create One</a></p>
+      </form>
+    </div>
+
+    <!--home section-->
+    <section class="home" id="home">
+      <h1 class="home-effect" data-speed="-2">find your car</h1>
+      <img src="images/cars/home.png" alt="" class="home-effect" data-speed="4" />
+      <a href="#" class="but home-effect" data-speed="8">Reach cars</a>
+    </section>
+
+    <!--icons section-->
+    <section class="icons-container">
+      <div class="icon">
+        <i class="fas fa-home"></i>
+        <div class="content">
+          <h3>100+</h3>
+          <p>branches</p>
+        </div>
+      </div>
+
+      <div class="icon">
+        <i class="fas fa-car"></i>
+        <div class="content">
+          <h3>2200+</h3>
+          <p>cars sold</p>
+        </div>
+      </div>
+
+      <div class="icon">
+        <i class="fas fa-users"></i>
+        <div class="content">
+          <h3>270+</h3>
+          <p>happy clients</p>
+        </div>
+      </div>
+
+      <div class="icon">
+        <i class="fas fa-car"></i>
+        <div class="content">
+          <h3>505+</h3>
+          <p>new cars</p>
+        </div>
+      </div>
+    </section>
+
+    <!--vehicles section-->
+    <section class="vehicles" id="vehicles">
+      <h1 class="heading">poppular <span>vehicles</span></h1>
+      <div class="swiper vehiles-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide box">
+            <img src="images/cars/BMW M5.jpg" alt="" />
+            <div class="content">
+              <h3>new model</h3>
+              <div class="price"><span>price: </span> $80000/-</div>
+              <p>
+                new
+                <span class="fas fa-circle"></span> 2023
+                <span class="fas fa-circle"></span> automatic
+                <span class="fas fa-circle"></span> petrol
+                <span class="fas fa-circle"></span> 183mph
+              </p>
+              <a href="#" class="but">check out</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="images/cars/nissan_gtr(4).jpg" alt="" />
+            <div class="content">
+              <h3>new model</h3>
+              <div class="price"><span>price: </span> $80000/-</div>
+              <p>
+                new
+                <span class="fas fa-circle"></span> 2023
+                <span class="fas fa-circle"></span> automatic
+                <span class="fas fa-circle"></span> petrol
+                <span class="fas fa-circle"></span> 183mph
+              </p>
+              <a href="#" class="but">check out</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="images/cars/JETOUR-X70(6).jpg" alt="" />
+            <div class="content">
+              <h3>new model</h3>
+              <div class="price"><span>price: </span> $80000/-</div>
+              <p>
+                new
+                <span class="fas fa-circle"></span> 2023
+                <span class="fas fa-circle"></span> automatic
+                <span class="fas fa-circle"></span> petrol
+                <span class="fas fa-circle"></span> 183mph
+              </p>
+              <a href="#" class="but">check out</a>
+            </div>
+          </div>
+
+
+          <div class="swiper-slide box">
+            <img src="images/cars/kia(5).jpg" alt="" />
+            <div class="content">
+              <h3>new model</h3>
+              <div class="price"><span>price: </span> $80000/-</div>
+              <p>
+                new
+                <span class="fas fa-circle"></span> 2023
+                <span class="fas fa-circle"></span> automatic
+                <span class="fas fa-circle"></span> petrol
+                <span class="fas fa-circle"></span> 183mph
+              </p>
+              <a href="#" class="but">check out</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="images/cars/Audi A4.jpg" alt="" />
+            <div class="content">
+              <h3>new model</h3>
+              <div class="price"><span>price: </span> $80000/-</div>
+              <p>
+                new
+                <span class="fas fa-circle"></span> 2023
+                <span class="fas fa-circle"></span> automatic
+                <span class="fas fa-circle"></span> petrol
+                <span class="fas fa-circle"></span> 183mph
+              </p>
+              <a href="#" class="but">check out</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <!--featured section-->
+
+    <section class="featured" id="featured">
+      <h1 class="heading"><span>featured</span> cars</h1>
+
+      <div class=" swiper featured-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide box">
+            <img src="images/cars/BMW M5.jpg" alt="" />
+            <h3>new model</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price">$70000/-</div>
+            <a href="#" class="but">check out</a>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="images/cars/Citroen C3 Aircross.jpg" alt="" />
+            <h3>new model</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price">$70000/-</div>
+            <a href="#" class="but">check out</a>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="images/cars/Skoda Octavia RS iV.jpg" alt="" />
+            <h3>new model</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price">$70000/-</div>
+            <a href="#" class="but">check out</a>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="images/cars/Mercedes-Benz.jpg" alt="" />
+            <h3>new model</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price">$70000/-</div>
+            <a href="#" class="but">check out</a>
+          </div>
+        </div>
+
+      </div>
+
+        <div class="swiper featured-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide box">
+            <img src="images/cars/Audi A4.jpg" alt="" />
+            <h3>new model</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price">$70000/-</div>
+            <a href="#" class="but">check out</a>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="images/cars/nissan_gtr(4).jpg" alt="" />
+            <h3>new model</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price">$70000/-</div>
+            <a href="#" class="but">check out</a>
+          </div>
+
+
+          <div class="swiper-slide box">
+            <img src="images/cars/kia(5).jpg" alt="" />
+            <h3>new model</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price">$70000/-</div>
+            <a href="#" class="but">check out</a>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="images/cars/JETOUR-X70(6).jpg" alt="" />
+            <h3>new model</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price">$70000/-</div>
+            <a href="#" class="but">check out</a>
+          </div>
+        </div>
+
+        <div class="swiper-pagination"></div>
+
+
+
+
+    </section>
+
+    <!--services section-->
+    <section class="services" id="services">
+      <h1 class="heading"> our <span>services </span> </h1>
+      <div class="ser-container">
+        <div class="box">
+          <i class="fas fa-tools"></i>
+          <h3>parts repair</h3>
+          <p>From minor fixes to major repairs, we make sure your car runs like new.</p>
+          <a href="#" class="but">read more</a>
+        </div>
+
+          <div class="box">
+          <i class="fas fa-car"></i>
+          <h3>car selling</h3>
+          <p>Sell your car quickly at the best price, or find the perfect one for your needs.</p>
+          <a href="#" class="but">read more</a>
+        </div>
+
+          <div class="box">
+          <i class="fas fa-car-crash"></i>
+          <h3>car insurance</h3>
+          <p>Drive with peace of mind our comprehensive insurance keeps you protected.</p>
+          <a href="#" class="but">read more</a>
+        </div>
+
+          <div class="box">
+          <i class="fas fa-car-battery"></i>
+          <h3>battery replacement</h3>
+          <p>Dead battery? Get it replaced instantly with a reliable one that keeps you moving.</p>
+          <a href="#" class="but">read more</a>
+        </div>
+
+          <div class="box">
+          <i class="fas fa-gas-pump"></i>
+          <h3>oil change</h3>
+          <p>Keep your engine healthy with high-quality oil changes that extend its life.</p>
+          <a href="#" class="but">read more</a>
+        </div>
+
+          <div class="box">
+          <i class="fas fa-headset"></i>
+          <h3>24/7 support</h3>
+          <p>Wherever you are, whenever you need us our support team is always here for you.</p>
+          <a href="#" class="but">read more</a>
+        </div>
+      </div>
+    </section>
+
+    <!--newsletter section-->
+    <section class="newsletter">
+      <h3>subscribe for latest updates</h3>
+
+      <form action="">
+        <input type="email" placeholder="enter your email" name="" id="">
+        <input type="submit" class="subscribe" name="" id="">
+      </form>
+
+    </section>
+
+    <!--review section-->
+    <section class="reviews" id="reviews">
+       <h1 class="heading"><span>clients</span> review</h1> 
+
+       <div class="swiper reviews-slider">
+
+        <div class="swiper-wrapper">
+
+          <div class="swiper-slide box">
+            <img src="images/personal4.jpg" alt="">
+            <div class="content">
+              <p>Excellent service! I brought my car within a week and got a much better price than expected.</p>
+              <h3>khaled osama</h3>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              
+            </div>
+          </div>
+          <div class="swiper-slide box">
+            <img src="images/personal2.jpg" alt="">
+            <div class="content">
+              <p>The insurance process was smooth and stress-free. Now I feel safe every time I drive.</p>
+              <h3>hazem ahmed</h3>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="images/personal3.jpg" alt="">
+            <div class="content">
+              <p>Best customer support ever! They’re available 24/7 and always solve my issues quickly.</p>
+              <h3>mostafa hamed</h3>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="images/personal1.jpg" alt="">
+            <div class="content">
+              <p>My battery died late at night, and they replaced it within 30 minutes. Truly a lifesaver!</p>
+              <h3>mahitab ahmed</h3>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="images/personal6.jpg" alt="">
+            <div class="content">
+              <p>I always come here for oil changes. Fast, affordable, and they really care about my car.</p>
+              <h3>mina maher</h3>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              
+            </div>
+          </div>
+
+        </div>
+       </div>
+    </section>
+
+    <!--contant section-->
+
+    <section class="contact" id="contact">
+      <h1 class="heading">contact <span> us </span></h1>
+
+      <div class="row">
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3418.8917824870687!2d31.363536925792648!3d31.02926457124367!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzHCsDAxJzQ1LjMiTiAzMcKwMjEnMzkuNSJF!5e0!3m2!1sar!2seg!4v1757257780235!5m2!1sar!2seg"
+         width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <form action="">
+          <h3>get it now</h3>
+          <input type="text" placeholder="name" class="box">
+          <input type="email" placeholder="email" class="box">
+          <input type="number" placeholder="number" class="box">
+          <textarea placeholder="message" class="box" cols="30" rows="10"></textarea>
+          <input type="submit" value="send message" class="but">
+        </form>
+
+      </div>
+    </section>
+
+    <!--footer section-->
+    <section class="footer" id="footer">
+        <div class="box-container">
+
+         <div class="box">
+           <h3>our branches</h3>
+           <a href="#"><i class="fas fa-map-market-alt"></i> mansoura </a>
+           <a href="#"><i class="fas fa-map-market-alt"></i> cairo </a>
+           <a href="#"><i class="fas fa-map-market-alt"></i> giza </a>
+          </div>
+
+          <div class="box">
+           <h3>Access link</h3>
+           <a href="#home"><i class="fas fa-arrow-right"></i> home </a>
+           <a href="#vehicles"><i class="fas fa-arrow-right"></i> vehicles </a>
+           <a href="#featured"><i class="fas fa-arrow-right"></i> featured </a>
+           <a href="#services"><i class="fas fa-arrow-right"></i> services </a>
+           <a href="#reviews"><i class="fas fa-arrow-right"></i> reviews </a>
+           <a href="#contact"><i class="fas fa-arrow-right"></i> contact </a>
+          </div>
+
+          <div class="box">
+           <h3>Access link</h3>
+           <a href="#"><i class="fas fa-phone"></i> +1020304050 </a>
+           <a href="#"><i class="fas fa-phone"></i> 0502459870 </a>
+           <a href="#"><i class="fas fa-envelope"></i> ebrahim@gmail.com </a>
+           
+          </div>
+
+            <div class="box">
+              <h3>Access link</h3>
+              <a href="#"><i class="fab fa-facebook-f"></i> facebook </a>
+              <a href="#"><i class="fab fa-instagram"></i> intagram </a>
+              <a href="#"><i class="fab fa-linkedin"></i> linkedin </a>
+              <a href="#"><i class="fab fa-tiktok"></i> tiktok </a>
+              
+            </div>
+
+        </div>
+
+        <div class="copyright">create by ebrahim mohamed | all rights reserved.</div>
+
+    </section>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>

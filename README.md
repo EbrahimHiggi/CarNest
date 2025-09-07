@@ -34,4 +34,4 @@ Check out the live version here: https://ebrahimhiggi.github.io/CarNest/
 
  ## 👨‍💻 Author
 
-Ebrahim Higgi
+Ebrahim Mohamed – Frontend Developer

@@ -5,24 +5,33 @@ The project is built using **HTML, CSS, and JavaScript**, focusing on clean desi
 
 ## 📌 Features
 
-Fully responsive design (works on desktop and mobile).
-Car listings with images, prices, and specifications.
-Modern homepage layout with attractive UI.
- Option to add customer reviews or ratings.
+- Fully responsive design (works on desktop and mobile).
+- Car listings with images, prices, and specifications.
+- Modern homepage layout with attractive UI.
+- Option to add customer reviews or ratings.
 
  ## 🛠️ Technologies Used
  
 - **HTML5** – Structure of the web pages.
 - **CSS3** – Styling and layout.
-- **JavaScript – Interactivity and dynamic features.
+- **JavaScript** – Interactivity and dynamic features.
 - *(Future-ready for backend or database integration).*
 
  ## 📸 Screenshots
 
- ##  Future Improvements
+ ## ✨ Future Improvements
  
-Add a car booking system.
+- Add a car booking system.
 
-Integrate with a real car API.
+- Integrate with a real car API.
 
-Multi-language support (English / Arabic).
+- Multi-language support (English / Arabic).
+
+ ## 🌐 Live Demo
+ 
+Check out the live version here:
+
+
+ ## 👨‍💻 Author
+
+Ebrahim Higgi

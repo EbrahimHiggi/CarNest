@@ -19,7 +19,7 @@ The project is built using **HTML, CSS, and JavaScript**, focusing on clean desi
 
  ## 📸 Screenshots
  ### Homepage
-![CarNest Homepage](./images/homepage.png)
+![CarNest Homepage](./images/home-page.png)
 
 ### Car Details
 ![Car Details Page](./images/login.png)
